@@ -116,3 +116,137 @@ Define this in your CSS
 	100%{background: rgba(0, 255, 0, 1.00);}
 
 }
+
+.headerDownAnim {
+
+    position: relative;
+
+    /* Chrome, Safari*/
+
+    -webkit-animation-name: easeAnimation;
+
+    -webkit-animation-duration: 1s;
+
+    -webkit-animation-timing-function: ease;
+
+    -webkit-animation-direction: alternate;
+
+    -webkit-animation-play-state: running;
+
+    /* Opera */
+
+    -o-animation-name: easeAnimation;
+
+    -o-animation-duration: 1s;
+
+    -o-animation-timing-function: ease;
+
+    -o-animation-direction: alternate;
+
+    -o-animation-play-state: running;
+
+    /* Mozilla */
+
+    -moz-animation-name: easeAnimation;
+
+    -moz-animation-duration: 1s;
+
+    -moz-animation-timing-function: ease;
+
+    -moz-animation-direction: alternate;
+
+    -moz-animation-play-state: running;
+
+    /* Standard syntax */
+
+    animation-name: easeAnimation;
+
+    animation-duration: 1s;
+
+    animation-timing-function: ease;
+
+    animation-direction: alternate;
+
+    animation-play-state: running;
+
+}
+/* Chrome, Safari */
+@-webkit-keyframes easeAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: -200px;
+
+    }
+
+    100% {
+
+        left: 0px;
+
+        top: 0px;
+
+    }
+
+}
+/* Firefox */
+@-moz-keyframes easeAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: -200px;
+
+    }
+
+    100% {
+
+        left: 0px;
+
+        top: 0px;
+
+    }
+
+}
+/* Opera */
+@-o-keyframes easeAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: -200px;
+
+    }
+
+    100% {
+
+        left: 0px;
+
+        top: 0px;
+
+    }
+
+}
+/* Standard syntax */
+@keyframes easeAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: -200px;
+
+    }
+
+    100% {
+
+        left: 0px;
+
+        top: 0px;
+
+    }
+
+}
