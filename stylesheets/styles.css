@@ -33,6 +33,10 @@ p {
     background-clip: text;
 }
 
+.textNeon {
+	color: #00EE00;
+}
+
 .textShadowEdgy {
     font: bold 60px Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
 	background-color: #565656;
