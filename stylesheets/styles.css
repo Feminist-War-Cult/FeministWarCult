@@ -34,7 +34,14 @@ p {
 }
 
 .textNeon {
-	color: #00EE00;
+    color: #00EE00;
+    font: bold 60px arial, sans-serif;
+	/*Chrome, Safari*/
+    -webkit-background-clip: text;
+	/*Firefox*/
+    -moz-background-clip: text;
+	/*Standard Syntax*/
+    background-clip: text;
 }
 
 .textShadowEdgy {
