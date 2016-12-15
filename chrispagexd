@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="stylesheets/styles.css">
@@ -7,6 +7,7 @@
 <h1 style="color:red">WELCOME ALL OF MY FANS!</h1>
 <audio autoplay loop>
 <source src="assets/springinmystep.mp4" type="audio/mpeg">
+</audio>
 </head>
 <body>
 
