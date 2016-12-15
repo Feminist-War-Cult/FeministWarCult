@@ -1,5 +1,5 @@
 body {
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     align-content: center;
 }
@@ -34,7 +34,7 @@ p {
 
 .textNeon {
     color: #00EE00;
-    font: bold 24px arial, sans-serif;
+    font: bold 24px Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
 	/*Chrome, Safari*/
     -webkit-background-clip: text;
 	/*Firefox*/
