@@ -34,7 +34,7 @@ p {
 
 .textNeon {
     color: #00EE00;
-    font: bold 60px arial, sans-serif;
+    font: bold 24px arial, sans-serif;
 	/*Chrome, Safari*/
     -webkit-background-clip: text;
 	/*Firefox*/
