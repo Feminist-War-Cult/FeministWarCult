@@ -136,7 +136,7 @@ Define this in your CSS
 
     /* Chrome, Safari*/
 
-    -webkit-animation-name: easeAnimation;
+    -webkit-animation-name: headereaseAnimation;
 
     -webkit-animation-duration: 1s;
 
@@ -148,7 +148,7 @@ Define this in your CSS
 
     /* Opera */
 
-    -o-animation-name: easeAnimation;
+    -o-animation-name: headereaseAnimation;
 
     -o-animation-duration: 1s;
 
@@ -160,7 +160,7 @@ Define this in your CSS
 
     /* Mozilla */
 
-    -moz-animation-name: easeAnimation;
+    -moz-animation-name: headereaseAnimation;
 
     -moz-animation-duration: 1s;
 
@@ -172,7 +172,7 @@ Define this in your CSS
 
     /* Standard syntax */
 
-    animation-name: easeAnimation;
+    animation-name: headereaseAnimation;
 
     animation-duration: 1s;
 
@@ -184,7 +184,7 @@ Define this in your CSS
 
 }
 /* Chrome, Safari */
-@-webkit-keyframes easeAnimation {
+@-webkit-keyframes headereaseAnimation {
 
     0% {
 	    
@@ -200,7 +200,7 @@ Define this in your CSS
 
 }
 /* Firefox */
-@-moz-keyframes easeAnimation {
+@-moz-keyframes headereaseAnimation {
 
     0% {
 	    
@@ -216,7 +216,7 @@ Define this in your CSS
 
 }
 /* Opera */
-@-o-keyframes easeAnimation {
+@-o-keyframes headereaseAnimation {
 
     0% {
 	    
@@ -232,7 +232,7 @@ Define this in your CSS
 
 }
 /* Standard syntax */
-@keyframes easeAnimation {
+@keyframes headereaseAnimation {
 
     0% {
 	    
@@ -255,7 +255,7 @@ Define this in your CSS
 
     /* Chrome, Safari*/
 
-    -webkit-animation-name: easeAnimation;
+    -webkit-animation-name: santaeaseAnimation;
 
     -webkit-animation-duration: 5s;
 
@@ -269,7 +269,7 @@ Define this in your CSS
 
     /* Opera */
 
-    -o-animation-name: easeAnimation;
+    -o-animation-name: santaeaseAnimation;
 
     -o-animation-duration: 5s;
 
@@ -283,7 +283,7 @@ Define this in your CSS
 
     /* Mozilla */
 
-    -moz-animation-name: easeAnimation;
+    -moz-animation-name: santaeaseAnimation;
 
     -moz-animation-duration: 5s;
 
@@ -297,7 +297,7 @@ Define this in your CSS
 
     /* Standard syntax */
 
-    animation-name: easeAnimation;
+    animation-name: santaeaseAnimation;
 
     animation-duration: 5s;
 
@@ -327,7 +327,7 @@ Define the keyframe and changes
 
 
 
-@-webkit-keyframes easeAnimation {
+@-webkit-keyframes santaeaseAnimation {
 
     0% {
 
