@@ -1,8 +1,7 @@
 body {
     width: 100%;
-    /* Change this value to customize the content area*/
     margin: 0 auto;
-	align-content: center;
+    align-content: center;
 }
 
 header { 
@@ -185,16 +184,12 @@ Define this in your CSS
 @-webkit-keyframes easeAnimation {
 
     0% {
-
-        left: 0px;
-
+	    
         top: -200px;
 
     }
 
     100% {
-
-        left: 0px;
 
         top: 0px;
 
@@ -205,16 +200,12 @@ Define this in your CSS
 @-moz-keyframes easeAnimation {
 
     0% {
-
-        left: 0px;
-
+	    
         top: -200px;
 
     }
 
     100% {
-
-        left: 0px;
 
         top: 0px;
 
@@ -225,16 +216,12 @@ Define this in your CSS
 @-o-keyframes easeAnimation {
 
     0% {
-
-        left: 0px;
-
+	    
         top: -200px;
 
     }
 
     100% {
-
-        left: 0px;
 
         top: 0px;
 
@@ -245,16 +232,12 @@ Define this in your CSS
 @keyframes easeAnimation {
 
     0% {
-
-        left: 0px;
-
+	    
         top: -200px;
 
     }
 
     100% {
-
-        left: 0px;
 
         top: 0px;
 
