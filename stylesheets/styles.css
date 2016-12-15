@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
 body {
     width: 95%;
     margin: 0 auto;
@@ -34,7 +36,8 @@ p {
 
 .textNeon {
     color: #F0FF00;
-    font: bold 24px Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+    font: bold 24px;
+   font-family: 'Bungee Shade', cursive;
 	/*Chrome, Safari*/
     -webkit-background-clip: text;
 	/*Firefox*/
