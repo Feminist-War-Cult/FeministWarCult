@@ -259,7 +259,7 @@ Define this in your CSS
 
     -webkit-animation-duration: 5s;
 
-    -webkit-animation-timing-function: ease;
+    -webkit-animation-timing-function: ease-in-out;
 
     -webkit-animation-iteration-count: infinite;
 
@@ -273,7 +273,7 @@ Define this in your CSS
 
     -o-animation-duration: 5s;
 
-    -o-animation-timing-function: ease;
+    -o-animation-timing-function: ease-in-out;
 
     -o-animation-iteration-count: infinite;
 
@@ -287,7 +287,7 @@ Define this in your CSS
 
     -moz-animation-duration: 5s;
 
-    -moz-animation-timing-function: ease;
+    -moz-animation-timing-function: ease-in-out;
 
     -moz-animation-iteration-count: infinite;
 
@@ -301,7 +301,7 @@ Define this in your CSS
 
     animation-duration: 5s;
 
-    animation-timing-function: ease;
+    animation-timing-function: ease-in-out;
 
     animation-iteration-count: infinite;
 
@@ -340,7 +340,7 @@ Define the keyframe and changes
 
     100% {
 
-        left: 90%;
+        left: 80%;
 
         top: 100px;
 		
@@ -356,7 +356,7 @@ Define the keyframe and changes
 
 
 
-@-moz-keyframes easeAnimation {
+@-moz-keyframes santaeaseAnimation {
 
     0% {
 
@@ -369,7 +369,7 @@ Define the keyframe and changes
 
     100% {
 
-        left: 90%;
+        left: 80%;
 
         top: 100px;
 		
@@ -385,7 +385,7 @@ Define the keyframe and changes
 
 
 
-@-o-keyframes easeAnimation {
+@-o-keyframes santaeaseAnimation {
 
     0% {
 
@@ -398,7 +398,7 @@ Define the keyframe and changes
 
     100% {
 
-        left: 90%;
+        left: 80%;
 
         top: 100px;
 		
@@ -414,7 +414,7 @@ Define the keyframe and changes
 
 
 
-@keyframes easeAnimation {
+@keyframes santaeaseAnimation {
 
     0% {
 
@@ -424,12 +424,24 @@ Define the keyframe and changes
 	    
 	right: 0px
     }
+	
+	25%{
+		top: -50px;
+	}
+	
+	50%{
+		top: 0px;
+	}
+	
+	75%{
+		top: -50px;
+	}
 
     100% {
 
-        left: 90%;
+        left: 80%;
 
-        top: 100px;
+        top: 0px;
 		
 	bottom: 0px;
 	
