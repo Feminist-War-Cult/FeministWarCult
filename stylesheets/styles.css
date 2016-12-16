@@ -457,3 +457,157 @@ Define the keyframe and changes
 	 font: bold 24px arial, sans-serif;
 	 
 }
+
+
+.diamondBackAnim {
+
+    position: relative;
+
+    /* Chrome, Safari*/
+
+    -webkit-animation-name: diamondBackHead;
+
+    -webkit-animation-duration: 1s;
+
+    -webkit-animation-timing-function: ease-in-out;
+
+
+    -webkit-animation-play-state: running;
+
+    /* Opera */
+
+    -o-animation-name: diamondBackHead;
+
+    -o-animation-duration: 1s;
+
+    -o-animation-timing-function: ease-in-out;
+
+    -o-animation-play-state: running;
+
+    /* Mozilla */
+
+    -moz-animation-name: diamondBackHead;
+
+    -moz-animation-duration: 1s;
+
+    -moz-animation-timing-function: ease-in-out;
+
+    -moz-animation-play-state: running;
+
+    /* Standard syntax */
+
+    animation-name: diamondBackHead;
+
+    animation-duration: 1s;
+
+    animation-timing-function: ease-in-out;
+
+    animation-play-state: running;
+
+}
+
+/* 
+
+
+
+Define the keyframe and changes
+
+
+
+*/
+
+
+
+/* Chrome, Safari */
+
+
+
+@-webkit-keyframes diamondBackHead {
+
+    0% {
+
+		transform: rotate3d(1, 0, -1, 360deg)
+			scale(0, 0)
+
+    }
+
+    100% {
+
+		transform: rotate3d(0, 0, 0, 360deg)
+			scale(1, 1)
+			
+
+    }
+
+}
+
+/* Firefox */
+
+
+
+@-moz-keyframes diamondBackHead {
+
+    0% {
+
+		transform: rotate3d(1, 0, -1, 360deg)
+			scale(0, 0)
+
+    }
+
+    100% {
+
+		transform: rotate3d(0, 0, 0, 360deg)
+			scale(1, 1)
+			
+
+    }
+
+}
+
+/* Opera */
+
+
+
+@-o-keyframes diamondBackHead {
+
+    0% {
+
+		transform: rotate3d(1, 0, -1, 360deg)
+			scale(0, 0)
+
+    }
+
+    100% {
+
+		transform: rotate3d(0, 0, 0, 360deg)
+			scale(1, 1)
+			
+
+    }
+
+
+}
+
+/* Standard syntax */
+
+
+
+@keyframes diamondBackHead {
+
+    0% {
+
+		transform: rotate3d(1, 0, -1, 360deg)
+			scale(0, 0)
+
+    }
+
+    100% {
+
+		transform: rotate3d(0, 0, 0, 360deg)
+			scale(1, 1)
+			
+
+    }
+
+
+}
