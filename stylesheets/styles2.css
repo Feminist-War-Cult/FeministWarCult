@@ -218,22 +218,22 @@ Define the keyframe and changes
 	    
 	right: 0px;
 		
-	rotation: -25deg
+	transform: rotate(-25deg)
     }
 	
 	25%{
 		top: -50px;
-		rotation: 25deg;
+		transform: rotate(25deg);
 	}
 	
 	50%{
 		top: 0px;
-		rotation: -25deg;
+		transform: rotate(-25deg);
 	}
 	
 	75%{
 		top: -50px;
-		rotation: 25deg;
+		transform: rotate(25deg);
 	}
 
     100% {
@@ -246,7 +246,7 @@ Define the keyframe and changes
 	
 	right: 200px;
 		
-	rotation: -25deg
+	transform: rotate(-25deg);
 
     }
 
@@ -257,7 +257,7 @@ Define the keyframe and changes
 
 
 @-moz-keyframes santaeaseAnimation {
-    0% {
+        0% {
 
         left: 0px;
 
@@ -265,22 +265,22 @@ Define the keyframe and changes
 	    
 	right: 0px;
 		
-	rotation: -25deg
+	transform: rotate(-25deg)
     }
 	
 	25%{
 		top: -50px;
-		rotation: 25deg;
+		transform: rotate(25deg);
 	}
 	
 	50%{
 		top: 0px;
-		rotation: -25deg;
+		transform: rotate(-25deg);
 	}
 	
 	75%{
 		top: -50px;
-		rotation: 25deg;
+		transform: rotate(25deg);
 	}
 
     100% {
@@ -293,7 +293,7 @@ Define the keyframe and changes
 	
 	right: 200px;
 		
-	rotation: -25deg
+	transform: rotate(-25deg);
 
     }
 
@@ -313,22 +313,22 @@ Define the keyframe and changes
 	    
 	right: 0px;
 		
-	rotation: -25deg
+	transform: rotate(-25deg)
     }
 	
 	25%{
 		top: -50px;
-		rotation: 25deg;
+		transform: rotate(25deg);
 	}
 	
 	50%{
 		top: 0px;
-		rotation: -25deg;
+		transform: rotate(-25deg);
 	}
 	
 	75%{
 		top: -50px;
-		rotation: 25deg;
+		transform: rotate(25deg);
 	}
 
     100% {
@@ -341,7 +341,7 @@ Define the keyframe and changes
 	
 	right: 200px;
 		
-	rotation: -25deg
+	transform: rotate(-25deg);
 
     }
 }
@@ -360,22 +360,22 @@ Define the keyframe and changes
 	    
 	right: 0px;
 		
-	rotation: -25deg
+	transform: rotate(-25deg)
     }
 	
 	25%{
 		top: -50px;
-		rotation: 25deg;
+		transform: rotate(25deg);
 	}
 	
 	50%{
 		top: 0px;
-		rotation: -25deg;
+		transform: rotate(-25deg);
 	}
 	
 	75%{
 		top: -50px;
-		rotation: 25deg;
+		transform: rotate(25deg);
 	}
 
     100% {
@@ -388,7 +388,7 @@ Define the keyframe and changes
 	
 	right: 200px;
 		
-	rotation: -25deg
+	transform: rotate(-25deg);
 
     }
 
