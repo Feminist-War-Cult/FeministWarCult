@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
+body {
+    width: 95%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+header { 
+	align-content: center;
+	background-color: #79028E;
+}
+
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	
+}
+
+.textShadow {
+    font: bold 60px arial, sans-serif;
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+	/*Chrome, Safari*/
+    -webkit-background-clip: text;
+	/*Firefox*/
+    -moz-background-clip: text;
+	/*Standard Syntax*/
+    background-clip: text;
+}
+
+.textNeon {
+    color: #00FFFF;
+    font: bold 24px;
+   font-family: 'Bungee Shade', cursive;
+	/*Chrome, Safari*/
+    -webkit-background-clip: text;
+	/*Firefox*/
+    -moz-background-clip: text;
+	/*Standard Syntax*/
+    background-clip: text;
+}
+
+.textShadowEdgy {
+    font: bold 60px Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	background-color: #565656;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+	/*Chrome, Safari*/
+    -webkit-background-clip: text;
+	/*Firefox*/
+    -moz-background-clip: text;
+	/*Standard Syntax*/
+    background-clip: text;
+}
+
+/* 
+
+
+
+Define this in your CSS 
+
+.bgColor = Replace it by the name you want to give your animation
+
+.bgAnimObj = Assign this class to the object you want to apply the effect
+
+*/
+
+
+
+.bgAnimObj {
+
+    -webkit-animation: bgColor 2s;
+
+    /* Chrome, Safari */
+
+    -moz-animation: bgColor 2s;
+
+    /* Firefox */
+
+    -o-animation: bgColor 2s;
+
+    /* Opera */
+
+    animation: bgColor 2s;
+	
+	animation-iteration-count: infinite;
+	
+	animation-direction: alternate;
+	
+	animation-timing-function: ease-in-out;
+
+}
+
+
+@-webkit-keyframes bgColor {
+
+	0% {background: rgba(255, 0, 0, 1.00);}
+	50%{background: rgba(0, 0, 255, 1.00);}
+	100%{background: rgba(0, 255, 0, 1.00);}
+
+}
+
+@-moz-keyframes bgColor {
+
+	0% {background: rgba(255, 0, 0, 1.00);}
+	50%{background: rgba(0, 0, 255, 1.00);}
+	100%{background: rgba(0, 255, 0, 1.00);}
+
+}
+
+@-o-keyframes bgColor {
+
+	0% {background: rgba(255, 0, 0, 1.00);}
+	50%{background: rgba(0, 0, 255, 1.00);}
+	100%{background: rgba(0, 255, 0, 1.00);}
+
+}
+
+@keyframes bgColor {
+
+	0% {background: rgba(255, 0, 0, 1.00);}
+	50%{background: rgba(0, 0, 255, 1.00);}
+	100%{background: rgba(0, 255, 0, 1.00);}
+
+}
+
+.headerDownAnim {
+
+    position: relative;
+
+    /* Chrome, Safari*/
+
+    -webkit-animation-name: headereaseAnimation;
+
+    -webkit-animation-duration: 1s;
+
+    -webkit-animation-timing-function: ease;
+
+    -webkit-animation-direction: alternate;
+
+    -webkit-animation-play-state: running;
+
+    /* Opera */
+
+    -o-animation-name: headereaseAnimation;
+
+    -o-animation-duration: 1s;
+
+    -o-animation-timing-function: ease;
+
+    -o-animation-direction: alternate;
+
+    -o-animation-play-state: running;
+
+    /* Mozilla */
+
+    -moz-animation-name: headereaseAnimation;
+
+    -moz-animation-duration: 1s;
+
+    -moz-animation-timing-function: ease;
+
+    -moz-animation-direction: alternate;
+
+    -moz-animation-play-state: running;
+
+    /* Standard syntax */
+
+    animation-name: headereaseAnimation;
+
+    animation-duration: 1s;
+
+    animation-timing-function: ease;
+
+    animation-direction: alternate;
+
+    animation-play-state: running;
+
+}
+/* Chrome, Safari */
+@-webkit-keyframes headereaseAnimation {
+
+    0% {
+	    
+        top: -200px;
+
+    }
+
+    100% {
+
+        top: 0px;
+
+    }
+
+}
+/* Firefox */
+@-moz-keyframes headereaseAnimation {
+
+    0% {
+	    
+        top: -200px;
+
+    }
+
+    100% {
+
+        top: 0px;
+
+    }
+
+}
+/* Opera */
+@-o-keyframes headereaseAnimation {
+
+    0% {
+	    
+        top: -200px;
+
+    }
+
+    100% {
+
+        top: 0px;
+
+    }
+
+}
+/* Standard syntax */
+@keyframes headereaseAnimation {
+
+    0% {
+	    
+        top: -200px;
+
+    }
+
+    100% {
+
+        top: 0px;
+
+    }
+
+}
+
+
+.santaanimation {
+
+    position: relative;
+
+    /* Chrome, Safari*/
+
+    -webkit-animation-name: santaeaseAnimation;
+
+    -webkit-animation-duration: 5s;
+
+    -webkit-animation-timing-function: ease-in-out;
+
+    -webkit-animation-iteration-count: infinite;
+
+    -webkit-animation-direction: alternate;
+
+    -webkit-animation-play-state: running;
+
+    /* Opera */
+
+    -o-animation-name: santaeaseAnimation;
+
+    -o-animation-duration: 5s;
+
+    -o-animation-timing-function: ease-in-out;
+
+    -o-animation-iteration-count: infinite;
+
+    -o-animation-direction: alternate;
+
+    -o-animation-play-state: running;
+
+    /* Mozilla */
+
+    -moz-animation-name: santaeaseAnimation;
+
+    -moz-animation-duration: 5s;
+
+    -moz-animation-timing-function: ease-in-out;
+
+    -moz-animation-iteration-count: infinite;
+
+    -moz-animation-direction: alternate;
+
+    -moz-animation-play-state: running;
+
+    /* Standard syntax */
+
+    animation-name: santaeaseAnimation;
+
+    animation-duration: 5s;
+
+    animation-timing-function: ease-in-out;
+
+    animation-iteration-count: infinite;
+
+    animation-direction: alternate;
+
+    animation-play-state: running;
+
+}
+
+/* 
+
+
+
+Define the keyframe and changes
+
+
+
+*/
+
+
+
+/* Chrome, Safari */
+
+
+
+@-webkit-keyframes santaeaseAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: 0px;
+	    
+	right: 0px
+    }
+
+    100% {
+
+        left: 80%;
+
+        top: 100px;
+		
+	bottom: 0px;
+	
+	right: 200px
+
+    }
+
+}
+
+/* Firefox */
+
+
+
+@-moz-keyframes santaeaseAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: 0px;
+	    
+	right: 0px
+    }
+
+    100% {
+
+        left: 80%;
+
+        top: 100px;
+		
+	bottom: 0px;
+	
+	right: 200px
+
+    }
+
+}
+
+/* Opera */
+
+
+
+@-o-keyframes santaeaseAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: 0px;
+	    
+	right: 0px
+    }
+
+    100% {
+
+        left: 80%;
+
+        top: 100px;
+		
+	bottom: 0px;
+	
+	right: 200px
+
+    }
+
+}
+
+/* Standard syntax */
+
+
+
+@keyframes santaeaseAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: 0px;
+	    
+	right: 0px
+    }
+	
+	25%{
+		top: -50px;
+	}
+	
+	50%{
+		top: 0px;
+	}
+	
+	75%{
+		top: -50px;
+	}
+
+    100% {
+
+        left: 80%;
+
+        top: 0px;
+		
+	bottom: 0px;
+	
+	right: 200px
+
+    }
+
+}
+
+.frosty {
+	
+	color: #4dff00;
+	 font: bold 24px arial, sans-serif;
+	 
+}
+
+
+.diamondBackAnim {
+
+    position: relative;
+
+    /* Chrome, Safari*/
+
+    -webkit-animation-name: diamondBackHead;
+
+    -webkit-animation-duration: 1s;
+
+    -webkit-animation-timing-function: ease-in-out;
+
+
+    -webkit-animation-play-state: running;
+
+    /* Opera */
+
+    -o-animation-name: diamondBackHead;
+
+    -o-animation-duration: 1s;
+
+    -o-animation-timing-function: ease-in-out;
+
+    -o-animation-play-state: running;
+
+    /* Mozilla */
+
+    -moz-animation-name: diamondBackHead;
+
+    -moz-animation-duration: 1s;
+
+    -moz-animation-timing-function: ease-in-out;
+
+    -moz-animation-play-state: running;
+
+    /* Standard syntax */
+
+    animation-name: diamondBackHead;
+
+    animation-duration: 1s;
+
+    animation-timing-function: ease-in-out;
+
+    animation-play-state: running;
+
+}
+
+/* 
+
+
+
+Define the keyframe and changes
+
+
+
+*/
+
+
+
+/* Chrome, Safari */
+
+
+
+@-webkit-keyframes diamondBackHead {
+
+    0% {
+
+		transform: rotate3d(1, 0, -1, 360deg)
+			scale(0, 0)
+
+    }
+
+    100% {
+
+		transform: rotate3d(0, 0, 0, 360deg)
+			scale(1, 1)
+			
+
+    }
+
+}
+
+/* Firefox */
+
+
+
+@-moz-keyframes diamondBackHead {
+
+    0% {
+
+		transform: rotate3d(1, 0, -1, 360deg)
+			scale(0, 0)
+
+    }
+
+    100% {
+
+		transform: rotate3d(0, 0, 0, 360deg)
+			scale(1, 1)
+			
+
+    }
+
+}
+
+/* Opera */
+
+
+
+@-o-keyframes diamondBackHead {
+
+    0% {
+
+		transform: rotate3d(1, 0, -1, 360deg)
+			scale(0, 0)
+
+    }
+
+    100% {
+
+		transform: rotate3d(0, 0, 0, 360deg)
+			scale(1, 1)
+			
+
+    }
+
+
+}
+
+/* Standard syntax */
+
+
+
+@keyframes diamondBackHead {
+
+    0% {
+
+		transform: rotate3d(1, 0, -1, 360deg)
+			scale(0, 0)
+
+    }
+
+    100% {
+
+		transform: rotate3d(0, 0, 0, 360deg)
+			scale(1, 1)
+			
+
+    }
+
+
+}
