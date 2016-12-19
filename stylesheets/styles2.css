@@ -221,19 +221,46 @@ Define the keyframe and changes
 	transform: rotate(-25deg)
     }
 	
+	10%{
+		transform: rotate(25deg);
+	}
+	20%{
+		transform: rotate(-25deg);
+	}
+	30%{
+		transform: rotate(25deg);
+	}
+	40%{
+		transform: rotate(-25deg);
+	}
+	
+	50%{
+		transform: rotate(25deg);
+	}
+	60%{
+		transform: rotate(-25deg);
+	}
+	70%{
+		transform: rotate(25deg);
+	}
+	80%{
+		transform: rotate(-25deg);
+	}
+	90%{
+		transform: rotate(25deg);
+	}
+	
+	
 	25%{
 		top: -50px;
-		transform: rotate(25deg);
 	}
 	
 	50%{
 		top: 0px;
-		transform: rotate(-25deg);
 	}
 	
 	75%{
 		top: -50px;
-		transform: rotate(25deg);
 	}
 
     100% {
@@ -257,7 +284,7 @@ Define the keyframe and changes
 
 
 @-moz-keyframes santaeaseAnimation {
-        0% {
+    0% {
 
         left: 0px;
 
@@ -268,19 +295,46 @@ Define the keyframe and changes
 	transform: rotate(-25deg)
     }
 	
+	10%{
+		transform: rotate(25deg);
+	}
+	20%{
+		transform: rotate(-25deg);
+	}
+	30%{
+		transform: rotate(25deg);
+	}
+	40%{
+		transform: rotate(-25deg);
+	}
+	
+	50%{
+		transform: rotate(25deg);
+	}
+	60%{
+		transform: rotate(-25deg);
+	}
+	70%{
+		transform: rotate(25deg);
+	}
+	80%{
+		transform: rotate(-25deg);
+	}
+	90%{
+		transform: rotate(25deg);
+	}
+	
+	
 	25%{
 		top: -50px;
-		transform: rotate(25deg);
 	}
 	
 	50%{
 		top: 0px;
-		transform: rotate(-25deg);
 	}
 	
 	75%{
 		top: -50px;
-		transform: rotate(25deg);
 	}
 
     100% {
@@ -316,19 +370,46 @@ Define the keyframe and changes
 	transform: rotate(-25deg)
     }
 	
+	10%{
+		transform: rotate(25deg);
+	}
+	20%{
+		transform: rotate(-25deg);
+	}
+	30%{
+		transform: rotate(25deg);
+	}
+	40%{
+		transform: rotate(-25deg);
+	}
+	
+	50%{
+		transform: rotate(25deg);
+	}
+	60%{
+		transform: rotate(-25deg);
+	}
+	70%{
+		transform: rotate(25deg);
+	}
+	80%{
+		transform: rotate(-25deg);
+	}
+	90%{
+		transform: rotate(25deg);
+	}
+	
+	
 	25%{
 		top: -50px;
-		transform: rotate(25deg);
 	}
 	
 	50%{
 		top: 0px;
-		transform: rotate(-25deg);
 	}
 	
 	75%{
 		top: -50px;
-		transform: rotate(25deg);
 	}
 
     100% {
@@ -363,19 +444,46 @@ Define the keyframe and changes
 	transform: rotate(-25deg)
     }
 	
+	10%{
+		transform: rotate(25deg);
+	}
+	20%{
+		transform: rotate(-25deg);
+	}
+	30%{
+		transform: rotate(25deg);
+	}
+	40%{
+		transform: rotate(-25deg);
+	}
+	
+	50%{
+		transform: rotate(25deg);
+	}
+	60%{
+		transform: rotate(-25deg);
+	}
+	70%{
+		transform: rotate(25deg);
+	}
+	80%{
+		transform: rotate(-25deg);
+	}
+	90%{
+		transform: rotate(25deg);
+	}
+	
+	
 	25%{
 		top: -50px;
-		transform: rotate(25deg);
 	}
 	
 	50%{
 		top: 0px;
-		transform: rotate(-25deg);
 	}
 	
 	75%{
 		top: -50px;
-		transform: rotate(25deg);
 	}
 
     100% {
