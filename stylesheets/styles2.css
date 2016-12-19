@@ -130,125 +130,6 @@ Define this in your CSS
 
 }
 
-.headerDownAnim {
-
-    position: relative;
-
-    /* Chrome, Safari*/
-
-    -webkit-animation-name: headereaseAnimation;
-
-    -webkit-animation-duration: 1s;
-
-    -webkit-animation-timing-function: ease;
-
-    -webkit-animation-direction: alternate;
-
-    -webkit-animation-play-state: running;
-
-    /* Opera */
-
-    -o-animation-name: headereaseAnimation;
-
-    -o-animation-duration: 1s;
-
-    -o-animation-timing-function: ease;
-
-    -o-animation-direction: alternate;
-
-    -o-animation-play-state: running;
-
-    /* Mozilla */
-
-    -moz-animation-name: headereaseAnimation;
-
-    -moz-animation-duration: 1s;
-
-    -moz-animation-timing-function: ease;
-
-    -moz-animation-direction: alternate;
-
-    -moz-animation-play-state: running;
-
-    /* Standard syntax */
-
-    animation-name: headereaseAnimation;
-
-    animation-duration: 1s;
-
-    animation-timing-function: ease;
-
-    animation-direction: alternate;
-
-    animation-play-state: running;
-
-}
-/* Chrome, Safari */
-@-webkit-keyframes headereaseAnimation {
-
-    0% {
-	    
-        top: -200px;
-
-    }
-
-    100% {
-
-        top: 0px;
-
-    }
-
-}
-/* Firefox */
-@-moz-keyframes headereaseAnimation {
-
-    0% {
-	    
-        top: -200px;
-
-    }
-
-    100% {
-
-        top: 0px;
-
-    }
-
-}
-/* Opera */
-@-o-keyframes headereaseAnimation {
-
-    0% {
-	    
-        top: -200px;
-
-    }
-
-    100% {
-
-        top: 0px;
-
-    }
-
-}
-/* Standard syntax */
-@keyframes headereaseAnimation {
-
-    0% {
-	    
-        top: -200px;
-
-    }
-
-    100% {
-
-        top: 0px;
-
-    }
-
-}
-
-
 .santaanimation {
 
     position: relative;
@@ -335,18 +216,37 @@ Define the keyframe and changes
 
         top: 0px;
 	    
-	right: 0px
+	right: 0px;
+		
+	rotation: -25deg
     }
+	
+	25%{
+		top: -50px;
+		rotation: 25deg;
+	}
+	
+	50%{
+		top: 0px;
+		rotation: -25deg;
+	}
+	
+	75%{
+		top: -50px;
+		rotation: 25deg;
+	}
 
     100% {
 
         left: 80%;
 
-        top: 100px;
+        top: 0px;
 		
 	bottom: 0px;
 	
-	right: 200px
+	right: 200px;
+		
+	rotation: -25deg
 
     }
 
@@ -357,25 +257,43 @@ Define the keyframe and changes
 
 
 @-moz-keyframes santaeaseAnimation {
-
     0% {
 
         left: 0px;
 
         top: 0px;
 	    
-	right: 0px
+	right: 0px;
+		
+	rotation: -25deg
     }
+	
+	25%{
+		top: -50px;
+		rotation: 25deg;
+	}
+	
+	50%{
+		top: 0px;
+		rotation: -25deg;
+	}
+	
+	75%{
+		top: -50px;
+		rotation: 25deg;
+	}
 
     100% {
 
         left: 80%;
 
-        top: 100px;
+        top: 0px;
 		
 	bottom: 0px;
 	
-	right: 200px
+	right: 200px;
+		
+	rotation: -25deg
 
     }
 
@@ -393,21 +311,39 @@ Define the keyframe and changes
 
         top: 0px;
 	    
-	right: 0px
+	right: 0px;
+		
+	rotation: -25deg
     }
+	
+	25%{
+		top: -50px;
+		rotation: 25deg;
+	}
+	
+	50%{
+		top: 0px;
+		rotation: -25deg;
+	}
+	
+	75%{
+		top: -50px;
+		rotation: 25deg;
+	}
 
     100% {
 
         left: 80%;
 
-        top: 100px;
+        top: 0px;
 		
 	bottom: 0px;
 	
-	right: 200px
+	right: 200px;
+		
+	rotation: -25deg
 
     }
-
 }
 
 /* Standard syntax */
@@ -422,19 +358,24 @@ Define the keyframe and changes
 
         top: 0px;
 	    
-	right: 0px
+	right: 0px;
+		
+	rotation: -25deg
     }
 	
 	25%{
 		top: -50px;
+		rotation: 25deg;
 	}
 	
 	50%{
 		top: 0px;
+		rotation: -25deg;
 	}
 	
 	75%{
 		top: -50px;
+		rotation: 25deg;
 	}
 
     100% {
@@ -445,7 +386,9 @@ Define the keyframe and changes
 		
 	bottom: 0px;
 	
-	right: 200px
+	right: 200px;
+		
+	rotation: -25deg
 
     }
 
