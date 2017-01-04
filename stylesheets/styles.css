@@ -37,7 +37,6 @@ p {
 .textNeon {
     color: #00FFFF;
     font: bold 24px;
-   font-family: 'Bungee Shade', cursive;
 	/*Chrome, Safari*/
     -webkit-background-clip: text;
 	/*Firefox*/
